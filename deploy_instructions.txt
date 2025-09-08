@@ -1,0 +1,108 @@
+GitHub Pages Deployment Instructions
+==========================================
+
+Follow these exact steps to deploy your portfolio website to GitHub Pages:
+
+STEP 1: Create GitHub Repository
+--------------------------------
+1. Go to https://github.com and sign in to your account
+2. Click the "+" icon in the top right corner
+3. Select "New repository"
+4. Repository name: "portfolio-shibam" (or your preferred name)
+5. Description: "Personal Portfolio Website"
+6. Make sure it's set to "Public" (required for free GitHub Pages)
+7. DO NOT initialize with README, .gitignore, or license (we already have these)
+8. Click "Create repository"
+
+STEP 2: Initialize Git and Push Code
+------------------------------------
+Open terminal/command prompt in your project folder and run:
+
+git init
+git add .
+git commit -m "init: add basic index.html and folder structure"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/portfolio-shibam.git
+git push -u origin main
+
+Replace YOUR_USERNAME with your actual GitHub username.
+
+STEP 3: Make Additional Commits (Following the Required Commit History)
+-----------------------------------------------------------------------
+git add .
+git commit -m "feat: add hero and about sections with responsive layout"
+git push
+
+git add .
+git commit -m "feat: add projects section and project cards"
+git push
+
+git add .
+git commit -m "feat: add contact form and validation"
+git push
+
+git add .
+git commit -m "style: polish styles and mobile layout fixes"
+git push
+
+git add .
+git commit -m "docs: add README, screenshots, license"
+git push
+
+git add .
+git commit -m "chore: final tweaks and accessibility fixes"
+git push
+
+STEP 4: Enable GitHub Pages
+---------------------------
+1. Go to your repository on GitHub
+2. Click on "Settings" tab (top right of repository page)
+3. Scroll down to "Pages" section in the left sidebar
+4. Under "Source", select "Deploy from a branch"
+5. Branch: Select "main"
+6. Folder: Select "/ (root)"
+7. Click "Save"
+
+STEP 5: Access Your Live Website
+--------------------------------
+1. GitHub will show you the URL where your site is published
+2. It will be: https://YOUR_USERNAME.github.io/portfolio-shibam
+3. It may take 5-10 minutes for the site to be live
+4. You'll see a green checkmark when deployment is successful
+
+STEP 6: Update Your Website
+---------------------------
+To make changes to your live website:
+1. Edit your files locally
+2. Commit and push changes:
+   git add .
+   git commit -m "update: describe your changes"
+   git push
+3. GitHub Pages will automatically update your live site
+
+TROUBLESHOOTING
+===============
+
+Issue: Site not loading after 10 minutes
+Solution: Check the "Actions" tab in your repository for build errors
+
+Issue: 404 error when visiting the site
+Solution: Make sure your main file is named "index.html" (case-sensitive)
+
+Issue: Changes not reflecting on live site
+Solution: Clear browser cache or wait a few minutes for GitHub to update
+
+Issue: Repository is private
+Solution: Make repository public in Settings > General > Danger Zone
+
+CUSTOM DOMAIN (Optional)
+========================
+To use a custom domain like www.yourname.com:
+1. Buy a domain from a registrar
+2. In repository Settings > Pages, add your custom domain
+3. Update your domain's DNS settings to point to GitHub Pages
+4. GitHub will provide specific DNS instructions
+
+Your portfolio will be live at: https://YOUR_USERNAME.github.io/portfolio-shibam
+
+Remember to replace YOUR_USERNAME with your actual GitHub username!

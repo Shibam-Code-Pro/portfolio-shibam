@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shibam - Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Shibam</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">Hi, I'm Shibam</h1>
+                    <h2 class="h3 text-primary mb-4">Full Stack Developer</h2>
+                    <p class="lead mb-4">I create beautiful, responsive web applications with modern technologies. Passionate about clean code and user experience.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary btn-lg me-3">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <div class="profile-placeholder">
+                            <i class="bi bi-person-circle display-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title mb-4">About Me</h2>
+                    <p class="lead mb-4">I'm a passionate full-stack developer with a love for creating innovative web solutions. With experience in modern frameworks and technologies, I enjoy turning complex problems into simple, beautiful designs.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while reading tech blogs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center p-4">
+                        <i class="bi bi-code-slash display-4 text-primary mb-3"></i>
+                        <h4>Frontend</h4>
+                        <p>HTML5, CSS3, JavaScript, React, Bootstrap, Responsive Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center p-4">
+                        <i class="bi bi-server display-4 text-primary mb-3"></i>
+                        <h4>Backend</h4>
+                        <p>Node.js, Express, Python, Django, RESTful APIs, Database Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center p-4">
+                        <i class="bi bi-tools display-4 text-primary mb-3"></i>
+                        <h4>Tools</h4>
+                        <p>Git, GitHub, VS Code, MongoDB, MySQL, Docker, AWS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="lead">Here are some of my recent projects that showcase my skills and experience.</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-laptop display-4"></i>
+                            </div>
+                        </div>
+                        <div class="project-content p-4">
+                            <h4>E-Commerce Platform</h4>
+                            <p>A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard. Optimized for scalability and a seamless shopping experience.</p>
+                            <div class="project-tech mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-primary me-1">Node.js</span>
+                                <span class="badge bg-primary me-1">MongoDB</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Live Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-phone display-4"></i>
+                            </div>
+                        </div>
+                        <div class="project-content p-4">
+                            <h4>Task Management App</h4>
+                            <p>A responsive task management application with drag-and-drop functionality, real-time updates. Designed to improve productivity and workflow efficiency through an intuitive and user-friendly interface.</p>
+                            <div class="project-tech mb-3">
+                                <span class="badge bg-primary me-1">Vue.js</span>
+                                <span class="badge bg-primary me-1">Express</span>
+                                <span class="badge bg-primary me-1">Socket.io</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Live Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="project-card h-100">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-graph-up display-4"></i>
+                            </div>
+                        </div>
+                        <div class="project-content p-4">
+                            <h4>Data Visualization Dashboard</h4>
+                            <p>An interactive dashboard for data visualization with charts, graphs, and real-time data updates using modern web technologies.</p>
+                            <div class="project-tech mb-3">
+                                <span class="badge bg-primary me-1">D3.js</span>
+                                <span class="badge bg-primary me-1">Python</span>
+                                <span class="badge bg-primary me-1">Flask</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-outline-primary btn-sm me-2">Live Demo</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Projects Button -->
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <a href="#" class="btn btn-primary">View Additional Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Education</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="education-item mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center mb-3 mb-md-0">
+                                <div class="education-year">
+                                    <span class="badge bg-primary fs-6">2019-2022</span>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h4>Master of Computer Applications (MCA)</h4>
+                                <h5 class="text-primary">Future Institute of Engineering and Management</h5>
+                                <p>Specialized in Software Engineering and Web Development. Graduated with honors, GPA: 3.8/4.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-item mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 text-center mb-3 mb-md-0">
+                                <div class="education-year">
+                                    <span class="badge bg-primary fs-6">2014-2017</span>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h4>Bachelor of Computer Applications (BCA)</h4>
+                                <h5 class="text-primary">Dinabandhu Andrews Institute of Technology & Management</h5>
+                                <p>Completed comprehensive certification covering modern web development technologies and best practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="lead">Have a project in mind? Let's work together to bring your ideas to life.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-envelope display-6 text-primary mb-2"></i>
+                    <h5>Email</h5>
+                    <p>shibam@example.com</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-linkedin display-6 text-primary mb-2"></i>
+                    <h5>LinkedIn</h5>
+                    <p>linkedin.com/in/shibam</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-github display-6 text-primary mb-2"></i>
+                    <h5>GitHub</h5>
+                    <p>github.com/shibam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Shibam. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
