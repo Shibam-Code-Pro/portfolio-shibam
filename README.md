@@ -4,7 +4,7 @@ A clean, modern, and responsive personal portfolio website showcasing projects, 
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://Shibam-Code-Pro.github.io/portfolio-shibam)
+[View Live Portfolio](https://portfolio-shibam.netlify.app)
 
 ## 📋 Project Summary
 
