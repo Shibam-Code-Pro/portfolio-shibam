@@ -17,7 +17,7 @@ A clean, modern, and responsive personal portfolio website showcasing projects, 
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://your-username.github.io/portfolio-shibam)
+[View Live Portfolio](https://portfolio-shibam.netlify.app)
 
 ## 📋 Project Summary
 
@@ -197,9 +197,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Email**: shibam@example.com
-- **LinkedIn**: [linkedin.com/in/shibam](https://linkedin.com/in/shibam)
-- **GitHub**: [github.com/shibam](https://github.com/shibam)
+- **Email**: Connect-With-Shibam@outlook.com
+- **LinkedIn**: [linkedin.com/in/shibam-webdev](https://linkedin.com/in/shibam-webdev)
+- **GitHub**: [github.com/Shibam-Code-Pro](https://github.com/Shibam-Code-Pro)
 
 ---
 
