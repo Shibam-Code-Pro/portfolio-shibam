@@ -1,6 +1,19 @@
-# Personal Portfolio Website
+# 💼 Personal Portfolio Website
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-4CAF50?style=for-the-badge&logo=responsive&logoColor=white)
 
 A clean, modern, and responsive personal portfolio website showcasing projects, skills, education, and contact information. Built with HTML5, CSS3, JavaScript, and Bootstrap 5.
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshot/portfolio-shibam.png" alt="Personal Portfolio Screenshot" width="800">
+  <p><em>Modern personal portfolio with gradient hero section and clean navigation</em></p>
+</div>
 
 ## 🚀 Live Demo
 
@@ -35,14 +48,16 @@ This is a one-page personal portfolio website designed with a mobile-first appro
 
 ```
 portfolio-shibam/
-├── index.html                 # Main HTML file
-├── styles.css                 # Custom CSS styles
-├── main.js                    # JavaScript functionality
-├── README.md                  # Project documentation
-├── LICENSE                    # MIT License
-├── .gitignore                 # Git ignore file
-├── deploy_instructions.txt    # GitHub Pages deployment guide
-└── REVIEWER_CHECKLIST.md      # Code review checklist
+├── 📄 index.html                 # Main HTML file
+├── 🎨 styles.css                 # Custom CSS styles
+├── ⚡ main.js                    # JavaScript functionality
+├── 📸 screenshot/               # Project screenshots
+│   └── portfolio-shibam.png
+├── 📖 README.md                  # Project documentation
+├── 📜 LICENSE                    # MIT License
+├── 🚫 .gitignore                 # Git ignore file
+├── 🚀 deploy_instructions.txt    # GitHub Pages deployment guide
+└── ✅ REVIEWER_CHECKLIST.md      # Code review checklist
 ```
 
 ## 📝 Commit History
